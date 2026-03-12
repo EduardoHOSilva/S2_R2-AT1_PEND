@@ -1,7 +1,6 @@
-let nome = document.querySelector("#nome");
-let btnEntrar = document.querySelector("#btnEntrar");
+let btnMudar = document.querySelector("#btnMudar");
 let message = document.querySelector("#message");
 
-btnEntrar.addEventListener("click", () => {
-    message.innerText = `Seu nome é: ${nome.value}`;
+btnMudar.addEventListener("click", () => {
+    message.innerText = "Texto alterado com JavaScript!";
 });
